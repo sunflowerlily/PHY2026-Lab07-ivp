@@ -21,7 +21,7 @@ $$\frac{d^2x}{dt^2} = -\omega^2 x.$$
 
 为了方便，我们取 $\omega=1$ 。写成一阶方程组为：
 
-$$\frac{dx}{dt} = v, \frac{dv}{dt} = -x.$$ 
+ $$\frac{dx}{dt} = v, \frac{dv}{dt} = -x.$$ 
 
 该系统的总能量 $E = \frac{1}{2}v^2 + \frac{1}{2}x^2$ 应当随时间守恒。不同数值方法会导致能量随时间发生不同形式的漂移，这是数值积分最本质的缺陷之一。
 
@@ -36,11 +36,11 @@ $$\frac{dx}{dt} = v, \frac{dv}{dt} = -x.$$
 ### 🧑‍💻 学生 B: P2_Lorenz_Chaos (洛伦兹吸引子与 AI 代码审查)
 - **物理背景**: 洛伦兹系统是大气对流的简化模型，展示了确定性系统中的混沌现象（即蝴蝶效应：对初值极度敏感）。其方程组为：
 
-$$ \frac{dx}{dt} = \sigma(y - x) $$
+ $$ \frac{dx}{dt} = \sigma(y - x) $$
 
-$$ \frac{dy}{dt} = x(\rho - z) - y $$
+ $$ \frac{dy}{dt} = x(\rho - z) - y $$
 
-$$ \frac{dz}{dt} = xy - \beta z $$
+ $$ \frac{dz}{dt} = xy - \beta z $$
 
 经典参数取值为 $\sigma=10, \rho=28, \beta=8/3$ 。
 - **目录**: `lab1_core/P2_Lorenz_Chaos/`
